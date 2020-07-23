@@ -1,0 +1,30 @@
+.NavBar {
+  position: fixed;
+  height: 60px;
+  width: 100vw;
+  top: 0;
+  background-color: #fdfdfd;
+  z-index: 1;
+}
+.navbar-brand {
+  font-family: "Niconne", cursive;
+  font-size: 1.8rem !important;
+  padding: 0 !important;
+}
+.get-started {
+  border: 1px solid var(--green02);
+}
+.get-started:hover {
+  background-color: var(--green02);
+}
+.nav-item {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+.nav-link:hover {
+  color: var(--green02) !important;
+}
+.start:hover {
+  color: #fdfdfd !important;
+}
