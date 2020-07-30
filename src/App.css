@@ -1,0 +1,8 @@
+.start-btn {
+  background-color: var(--green01) !important;
+  color: #fefefe !important;
+  padding: 0.8rem 1.3rem !important;
+}
+.start-btn:hover {
+  opacity: 0.9;
+}

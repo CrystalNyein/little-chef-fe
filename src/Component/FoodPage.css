@@ -1,0 +1,25 @@
+.FoodPage {
+  margin-top: 60px;
+  min-height: calc(100vh - 125px);
+  /* background-image: url(../Assets/background15.jpg); */
+  background-size: cover;
+}
+h4 {
+  color: var(--green01);
+}
+p {
+  font-size: 1.1rem;
+}
+.num {
+  font-size: 3rem;
+  margin: 0;
+}
+.num ~ p {
+  font-size: 1.3rem;
+}
+.step {
+  font-weight: 600;
+}
+.enjoy {
+  font-family: cursive;
+}

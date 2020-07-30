@@ -6,24 +6,32 @@
   background-color: #fdfdfd;
   z-index: 1;
 }
+.navbar {
+  padding: 0.35rem 1rem !important;
+}
 .navbar-brand {
   font-family: "Niconne", cursive;
-  font-size: 1.8rem !important;
+  font-size: 2rem !important;
   padding: 0 !important;
-}
-.get-started {
-  border: 1px solid var(--green02);
-}
-.get-started:hover {
-  background-color: var(--green02);
+  color: var(--green01) !important;
 }
 .nav-item {
   font-weight: 600;
   text-transform: uppercase;
   margin: 0 10px;
 }
+.get-started {
+  border: 1px solid var(--green01);
+  margin-right: 15px;
+}
+.get-started:hover {
+  background-color: var(--green01);
+}
+.NavBar .start {
+  padding: 0.5rem 1rem;
+}
 .nav-link:hover {
-  color: var(--green02) !important;
+  color: var(--green01) !important;
 }
 .start:hover {
   color: #fdfdfd !important;

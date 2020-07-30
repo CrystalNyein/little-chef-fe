@@ -1,5 +1,6 @@
 import React from "react";
 import "./GetStarted.css";
+import { Link } from "react-router-dom";
 
 const GetStarted = () => {
   return (
@@ -15,8 +16,8 @@ const GetStarted = () => {
               easy to be cooked.
             </p>
             <a
-              className="text-left font-weight-bold btn text-uppercase mt-3 start"
-              href="#"
+              className="text-left font-weight-bold btn text-uppercase mt-3 start-btn"
+              href="/menu"
             >
               Get Started
             </a>
