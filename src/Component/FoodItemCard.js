@@ -16,7 +16,7 @@ const FoodItemCard = ({ food }) => {
         <div className="card-body">
           <h5 className="card-title">{food.display.displayName}</h5>
           <Link to={`/food/${getTrackingId(food["tracking-id"])}`}>
-            <div className="btn btn-success">Learn More</div>
+            <div className="btn rounded-pill">Learn More</div>
           </Link>
         </div>
       </div>

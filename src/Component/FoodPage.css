@@ -1,7 +1,5 @@
 .FoodPage {
-  margin-top: 60px;
   min-height: calc(100vh - 125px);
-  /* background-image: url(../Assets/background15.jpg); */
   background-size: cover;
 }
 h4 {
@@ -22,4 +20,15 @@ p {
 }
 .enjoy {
   font-family: cursive;
+}
+.food-img {
+  width: calc(100vw - 30px);
+}
+@media only screen and (min-width: 800px) {
+  .FoodPage {
+    margin-top: 60px;
+  }
+  .food-img {
+    width: 100%;
+  }
 }

@@ -1,3 +1,6 @@
+#howItWork {
+  min-height: calc(100vh - 120px);
+}
 .cooking-step img {
   width: 130px;
   height: 130px;

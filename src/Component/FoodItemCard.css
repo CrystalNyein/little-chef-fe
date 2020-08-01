@@ -1,3 +1,32 @@
 .card {
   border-color: var(--green01);
 }
+.FoodItemCard .btn {
+  line-height: 37.3px;
+  color: #075030;
+  padding: 0 15px;
+  /* background-color: var(--green02); */
+  border: 1px solid #075030;
+  border-bottom: 3px solid #075030;
+  /* background-image: linear-gradient(
+    -225deg,
+    #d4ffec 0%,
+    #57f286 48%,
+    #39c234 100%
+  ); */
+}
+.FoodItemCard .btn:hover {
+  color: #0e9259;
+  border-color: #0e9259;
+  /* background-image: linear-gradient(
+    -300deg,
+    #d4ffec 0%,
+    #57f286 48%,
+    #39c234 100%
+  ); */
+}
+.FoodItemCard .btn:active {
+  position: relative;
+  top: 2px;
+  border-bottom: 1px solid #0e9259;
+}

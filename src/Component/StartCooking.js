@@ -9,7 +9,7 @@ const StartCooking = () => {
     <div id="howItWork" className="StartCooking container">
       <div className="row cook-title my-3">
         <div className="col-md-12">
-          <h3 className="text-center font-weight-bold text-capitalize my-3">
+          <h3 className="text-center font-weight-bold text-capitalize my-2">
             delicious meal is just 3 steps away
           </h3>
         </div>
@@ -40,11 +40,11 @@ const StartCooking = () => {
           </p>
         </div>
       </div>
-      <div class="row my-2">
-        <div class="col-md-12 text-center py-2">
+      <div class="row">
+        <div class="col-md-12 text-center">
           <a
             href="/menu"
-            className="btn start-btn text-left font-weight-bold text-uppercase my-3 "
+            className="btn start-btn text-left font-weight-bold text-uppercase my-3 rounded-pill"
           >
             Start Cooking
           </a>

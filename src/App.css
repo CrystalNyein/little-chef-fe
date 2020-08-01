@@ -1,8 +1,8 @@
 .start-btn {
-  background-color: var(--green01) !important;
-  color: #fefefe !important;
+  background-image: linear-gradient(to top left, #24a154 0%, #0b6708 100%);
+  color: #e3f8e8 !important;
   padding: 0.8rem 1.3rem !important;
 }
 .start-btn:hover {
-  opacity: 0.9;
+  background-image: linear-gradient(to bottom left, #24a154 0%, #0b6708 100%);
 }

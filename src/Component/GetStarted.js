@@ -7,16 +7,16 @@ const GetStarted = () => {
     <div className="GetStarted">
       <div className="h-100 d-flex flex-column justify-content-center">
         <div className="row">
-          <div className="col-md-5  get-started-content">
-            <h1 className="font-weight-bold text-left text-uppercase header1">
-              Recipe is a story that end with a good meal
+          <div className="col-md-5  get-started-content mx-3">
+            <h1 className="display-4 font-weight-bold text-left text-uppercase header1 ml-3">
+              Recipe is a story that ends with food
             </h1>
-            <p className="text-left">
-              Now offering varieties of food recipes, which are all fast and
-              easy to be cooked.
+            <p className="h2 text-left mb-3 ml-3">
+              <strong>Little Chef</strong> is now offering varieties of food
+              recipes, which are all fast and easy to be cooked. <br />
             </p>
             <a
-              className="text-left font-weight-bold btn text-uppercase mt-3 start-btn"
+              className="text-left font-weight-bold btn text-uppercase mt-3 start-btn ml-3 rounded-pill"
               href="/menu"
             >
               Get Started

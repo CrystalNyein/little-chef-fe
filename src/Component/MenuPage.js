@@ -32,7 +32,7 @@ const MenuPage = () => {
   }, []);
   return (
     <div className="MenuPage">
-      <div className="container bg-white">
+      <div className="container bg-white border-left border-right shadow-md">
         {menuList.length > 0 ? (
           <div className="row">
             <div className="col-md-12 my-3">

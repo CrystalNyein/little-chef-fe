@@ -1,6 +1,8 @@
 .MenuPage {
-  margin-top: 60px;
   min-height: calc(100vh - 125px);
-  background-image: url(../Assets/background08.jpg);
-  background-size: cover;
+}
+@media only screen and (min-width: 800px) {
+  .MenuPage {
+    margin-top: 60px;
+  }
 }
